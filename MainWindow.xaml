@@ -1,0 +1,17 @@
+﻿<Window x:Class="zadanie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Label Content="Aplikacja konwertujaca jednostki temperatury. Autor: Lena Krzciuk" Margin="10,53,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label Content="Temperatura C" Margin="10,108,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Height="20" Width="50" Margin="200,113,0,0" x:Name="celc"  HorizontalAlignment="Left" VerticalAlignment="Top"></TextBox>
+        <Label Content="Temperatura K" Margin="10,155,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Height="20" Width="50" Margin="200,160,0,0" x:Name="kelw"  HorizontalAlignment="Left" VerticalAlignment="Top"></TextBox>
+        <Button Margin="316,135,0,0" Content="Przelicz" Click="Button_Click" x:Name="btnLicz" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
